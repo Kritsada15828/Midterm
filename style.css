@@ -1,0 +1,292 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff8f8;
+  color: #660066;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #660066;
+}
+
+
+nav {
+  margin-left: auto;
+}
+
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #660066;
+  font-weight: 500;
+}
+
+section.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+
+ section.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h2 {
+  font-size: 16px;
+  color: #99CCFF;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #99FFFF;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #9999FF;
+  line-height: 1.6;                 
+}
+
+.hero-img img {
+  width: 550px;
+  height: inherit;
+  padding: 12px 25px; 
+  border-radius: 150px;                      
+}
+
+.btn {
+  margin-top: 20px;
+  display: inline-block;             
+  padding: 12px 25px;                
+  border: 2px solid #ffFFFF;        
+  border-radius: 30px;              
+  text-decoration: none;             
+  color: #ffffff;                    
+  font-weight: bold;
+}
+
+body {
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #330033; 
+    color: #ffffff;
+}
+
+.container {
+    padding: 40px 80px; 
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+/* 1. My Recent Projects Section */
+
+.project-showcase {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.project-item {
+    flex-shrink: 0; 
+}
+
+
+.project-item h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+
+.project-norah {
+    flex-basis: 350px; 
+}
+
+.project-title-norah span {
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+
+
+.project-phatthong {
+    flex-basis: 350px; 
+}
+
+
+
+.project-meso3D {
+    flex-basis: 350px; 
+}
+
+
+
+.project-Rakari {
+    flex-basis: 350px; 
+}
+
+
+
+.project-design-ui {
+    flex-basis: 150px; 
+}
+.project-title-ui {
+    font-size: 0.9em;
+    text-align: right;
+}
+.ui-images {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.ui-top-img, .ui-bottom-img {
+    height: 90px;
+}
+
+
+.image-placeholder {
+    background-color: #eee; 
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ddd;
+}
+.norah-img {
+    height: 250px; 
+    background-image: url('Image/Photo\ 1.jpg'); 
+}
+.phatthong-img {
+    height: 250px; 
+    background-image: url('Image/Photo\ 2.png'); 
+}
+
+.meso3D-img {
+    height: 250px; 
+    background-image: url('Image/Photo\ 3.png'); 
+}
+
+
+.Rakari-img {
+    height: 250px; 
+    background-image: url('Image/Photo\ 4.png'); 
+}
+
+
+
+
+/* 2. Categories Section */
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+}
+
+.category-card {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding-bottom: 15px;
+}
+
+
+.pink-background {
+    background-color: #ffffff; 
+}
+
+.card-image {
+    height: 400px; 
+    background-color: #e0e0e0; 
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.category-card h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px 20px 0;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.category-card p {
+    font-size: 0.9em;
+    color: #000000;
+    margin: 0 20px;
+    line-height: 1.6;
+}
+
+
+.placeholder-1 {
+    background-image: url('Image/Project\ 1.png'); 
+}
+.placeholder-2 {
+    background-image: url('Image/Project\ 2.png'); 
+}
+.placeholder-3 {
+    background-image: url('Image/Project\ 3.png'); 
+}
+.placeholder-4 {
+    background-image: url('Image/Project\ 4.png');
+}
+.placeholder-5 {
+    background-image: url('Image/Project\ 5.png');
+}
+.placeholder-6 {
+    background-image: url('Image/Project\ 6.png');
+}
+
+
+
+/* สไตล์สำหรับหน้าจอขนาดเล็ก (Responsive) */
+@media (max-width: 768px) {
+    .about-me {
+        flex-direction: column; /* เปลี่ยนทิศทางให้เป็นแนวตั้งสำหรับหน้าจอเล็ก */
+        padding: 30px;
+    }
+
+    .about-me .about-img,
+    .about-me .about-text {
+        max-width: 100%; /* ใช้ความกว้างเต็ม */
+        padding: 0;
+        text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+    }
+
+    .about-me .about-img {
+        margin-bottom: 30px; /* เพิ่มระยะห่างด้านล่างรูปภาพ */
+    }
+}
+
